@@ -57,9 +57,6 @@ function func(element){
             document.body.style.pointerEvents = "auto";
         },3500)
     }
-    else{
-        return;
-    }
     let matrixOne = [
         [b1,b2,b3,b4,b5],
         [b6,b7,b8,b9,b10],
