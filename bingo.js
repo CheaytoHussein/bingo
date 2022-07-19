@@ -38,7 +38,7 @@ function func(element){
                 ps[i].title = random_values2[i]
             }
             document.body.style.pointerEvents = "auto";
-        },3500)
+        },2500)
     }
     else if(scroll%2 != 0 && bs.indexOf(element) == -1 ){
         document.body.style.filter = "blur(120px)";
@@ -55,7 +55,7 @@ function func(element){
                 ps[i].title = random_values2[i]
             }
             document.body.style.pointerEvents = "auto";
-        },3500)
+        },2500)
     }
     let matrixOne = [
         [b1,b2,b3,b4,b5],
@@ -151,7 +151,7 @@ function func(element){
         }
     }
     if(h2.innerHTML==title[5]){
-        setTimeout(()=>{alert(' won')},600)
+        setTimeout(()=>{alert('playerTwo won')},600)
         for(let i=0;i<=24;i++){
             bs[i].disabled = true;
             ps[i].disabled = true;
